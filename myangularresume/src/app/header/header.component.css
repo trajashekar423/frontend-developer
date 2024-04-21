@@ -1,0 +1,13 @@
+.navbar{
+    background-color: blue;
+    height: 70px;
+    background: linear-gradient(to right, #E80D36, #D51EA0,#8B16F8);
+}
+
+.nav-item a{
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+}
