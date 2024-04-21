@@ -11,3 +11,15 @@
 .navbar-brand{
     color: #fff;
 }
+
+.navbar-brand img{
+    width: 250px;
+}
+
+.header-fixed{
+    width: 100%;
+    position: fixed;
+    top: 0;
+  
+   
+}
