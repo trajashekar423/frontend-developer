@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  navbar =['Home','About','Services'];
+  navbar =['Home','About','Services','Contact'];
 }
