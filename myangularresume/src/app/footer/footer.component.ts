@@ -10,5 +10,5 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   footer =['Aboutme','MyResume','MyPortfolio','Contact'];
-  copyright=[© 2024 Company, Inc]
+  copyright=['© 2024 Company, Inc']
 }
