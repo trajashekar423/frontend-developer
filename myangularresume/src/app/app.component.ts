@@ -14,7 +14,7 @@ import { MyskillsComponent } from "./myskills/myskills.component";
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, BannercontentComponent, WhatiwilldoComponent, FooterComponent, MyresumeComponent, MyskillsComponent]
+    imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, BannercontentComponent, WhatiwilldoComponent, FooterComponent, MyresumeComponent, MyskillsComponent, MyskillsComponent]
 })
 export class AppComponent {
   title = 'myangularresume';

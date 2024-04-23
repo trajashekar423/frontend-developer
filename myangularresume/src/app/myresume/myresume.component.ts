@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './myresume.component.css'
 })
 export class MyresumeComponent {
-
+myskills=[]
 }

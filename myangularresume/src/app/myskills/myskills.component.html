@@ -6,20 +6,20 @@
             <h3>My Coding Skills</h3>
             <hr/>
         </div>
-        <div class="col-md-12">
-            <div class="myskills-icon">
-                <ul>
-                    <li *ngFor="let myskills of myskills">
-                        {{myskills}}
-                    </li>
-
-                    <i class="fa-brands fa-html5"></i>
-
-
-                </ul>
-            </div>
-
         </div>
+        <div class="row text-center">
+            <div class="col-md-2" *ngFor="let item of items">
+                <div class="myskills-icon">
+                    <div class="card">
+                       
+                        <div class="card-body">                         
+                            <img class="card-img-top" [src]="item.imageUrl" alt="Card image cap">
+                        </div>
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+        
     </div>
 
-</div>
