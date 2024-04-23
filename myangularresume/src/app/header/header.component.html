@@ -8,16 +8,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item fs-5" *ngFor="let navbar of navbar">
-            <a class="nav-link active" aria-current="page" href="#">                
-                {{navbar}}
-            </a>
-          </li>
-         
-        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">                
+            <li><a routerLink="/myresume" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">MyResume</a></li>
         </ul>
        
       </div>
     </div>
   </nav></header>
+  

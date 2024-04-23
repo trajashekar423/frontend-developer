@@ -3,5 +3,8 @@ hr{
     opacity: 9;
 }
 .card img{
-    height: 160px;
+    height: 230px;
+}
+.card-body{
+    height: 150px;
 }

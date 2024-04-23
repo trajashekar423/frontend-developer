@@ -8,9 +8,9 @@
         
 
 </div>
-<div class="row">
-    <div class="col mb-3" *ngFor="let cardData of cardData">
-        <div class="card" style="width: 18rem;">
+<div class="row justify-content-center">
+    <div class="col-md-4 mb-3" *ngFor="let cardData of cardData">
+        <div class="card">
             <img src="{{cardData.imageUrl}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold">{{cardData.title}}</h5>
