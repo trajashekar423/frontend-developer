@@ -3,7 +3,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col">
-            <h3>My Coding Skills</h3>
+            <h5 class="fw-bold">My Coding Skills</h5>
             <hr/>
         </div>
         </div>
@@ -11,9 +11,9 @@
             <div class="col-md-2" *ngFor="let item of items">
                 <div class="myskills-icon">
                     <div class="card">
-                       
                         <div class="card-body">                         
                             <img class="card-img-top" [src]="item.imageUrl" alt="Card image cap">
+                            <h6 class="card-title mt-3">{{item.codetitle}}</h6>
                         </div>
                       </div>
                 </div>
@@ -23,3 +23,27 @@
         
     </div>
 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h5 class="fw-bold">My Design Skills</h5>
+                <hr/>
+            </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-2" *ngFor="let mydesignitems of mydesignitems">
+                    <div class="myskills-icon">
+                        <div class="card">
+                           
+                            <div class="card-body">                         
+                                <img class="card-img-top" [src]="mydesignitems.imageUrl" alt="Card image cap">
+                                <h6 class="card-title mt-3">{{mydesignitems.title}}</h6>
+                            </div>
+                          </div>
+                    </div>
+        
+                </div>
+            </div>
+            
+        </div>
+    
