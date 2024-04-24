@@ -2,6 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { GoogleMap, GoogleMapsModule } from '@angular/google-maps';
 
+interface contactdetails {
+  imageUrl: string;
+  title: string;
+}
+
+
 @Component({
   selector: 'app-contact',
   standalone: true,
@@ -10,6 +16,7 @@ import { GoogleMap, GoogleMapsModule } from '@angular/google-maps';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
+  contact=['Contact Me']
 move($event: google.maps.MapMouseEvent) {
 throw new Error('Method not implemented.');
 }
