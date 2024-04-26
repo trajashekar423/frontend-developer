@@ -9,3 +9,9 @@
     /* background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important; */
     background: #1D1135 !important;
 }
+
+.cap-bg{
+    background-color: #d51ea0;
+    max-width: 430px;
+    padding: 10px;
+}

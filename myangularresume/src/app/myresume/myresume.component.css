@@ -8,3 +8,30 @@
     bottom: 0;
     background-color: #ff724c;
 }
+
+
+.myeducation h6:nth-child(3) {
+    background: red;
+    max-width: 60px;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+  }
+
+  
+.myeducation h6:nth-child(5) {
+    background: red;
+    max-width:250px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+  }
+
+  .blue-bg{
+    background: #1D1135 !important;
+    color: #fff;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
