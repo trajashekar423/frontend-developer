@@ -6,3 +6,8 @@ body{
   font-weight: 500;
   font-style: normal;
 }
+
+.no-margin{
+  padding: 0 !important;
+  margin: 0 !important;
+}

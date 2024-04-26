@@ -1,0 +1,10 @@
+.block-title h6:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: -10px;
+    bottom: 0;
+    background-color: #ff724c;
+}

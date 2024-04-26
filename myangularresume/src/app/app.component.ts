@@ -9,12 +9,13 @@ import { HomepageComponent } from "./homepage/homepage.component";
 import { GoogleMapsModule } from '@angular/google-maps'
 
 
+
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, FooterComponent, HomepageComponent,GoogleMapsModule]
+    imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, FooterComponent, HomepageComponent,GoogleMapsModule,]
 })
 export class AppComponent {
   title = 'myangularresume';
