@@ -1,0 +1,7 @@
+.blue-bg{
+    background: #1D1135 !important;
+    color: #fff;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
