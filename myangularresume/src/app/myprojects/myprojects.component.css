@@ -5,3 +5,13 @@
     display: flex;
     align-items: center;
   }
+
+  p{
+    margin: 0;
+  }
+
+  .project-number{
+    background: linear-gradient(to right, #E80D36, #D51EA0, #8B16F8);
+    padding: 10px;
+    color: #fff;
+  }

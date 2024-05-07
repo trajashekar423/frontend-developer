@@ -1,0 +1,21 @@
+
+   [{
+      "role": "Front-end Developer",
+      "Organization": "TCS",
+      "Description": "Mars Food is a segment of family owned Mars, Incorporated. For more than a century, Mars, Incorporated has been driven by the belief that the world we want tomorrow starts with how we do business today. Played a role of Team Member for various project of MARS. Applications like Unclebens, Miracoli, ebly, etc.",
+      "Responsibilities": {
+        "1":"Working as a front end developer in the project. I am responsible for building reusable components",
+        "2" :"Create applications with using HTML/CSS/JavaScript/Bootstrap 4.0/"
+      }          
+      },
+
+      {
+        "role": "Front-end Developer",
+        "Organization": "TCS",
+        "Description": "Mars Food is a segment of family owned Mars, Incorporated. For more than a century, Mars, Incorporated has been driven by the belief that the world we want tomorrow starts with how we do business today. Played a role of Team Member for various project of MARS. Applications like Unclebens, Miracoli, ebly, etc.",
+        "Responsibilities": {
+          "1":"Working as a front end developer in the project. I am responsible for building reusable components",
+          "2" :"Create applications with using HTML/CSS/JavaScript/Bootstrap 4.0/"
+        }          
+        }
+    ]

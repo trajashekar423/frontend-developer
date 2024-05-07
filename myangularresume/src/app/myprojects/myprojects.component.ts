@@ -1,11 +1,16 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 
 export interface myprojects {
   projectname: string;
-  projectdes:string;
-  projectimage:string;
+  projectdes: string;
+  projectimage: string;
   imageUrl: string;
+  role: string;
+  Organization: string;
+  Description: string;
+  Responsibilities: string;
 
 }
 
@@ -13,12 +18,14 @@ export interface myprojects {
 @Component({
   selector: 'app-myprojects',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './myprojects.component.html',
   styleUrl: './myprojects.component.css'
 })
 export class MyprojectsComponent {
+  
   heading = ['My Projects']
-
+myproject: any;
+  
 
 }
