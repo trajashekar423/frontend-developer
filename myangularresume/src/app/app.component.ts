@@ -15,7 +15,7 @@ import { GoogleMapsModule } from '@angular/google-maps'
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, FooterComponent, HomepageComponent,GoogleMapsModule,]
+    imports: [CommonModule, HomepageComponent,RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, FooterComponent,GoogleMapsModule,]
 })
 export class AppComponent {
   title = 'myangularresume';
